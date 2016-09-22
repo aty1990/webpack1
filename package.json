@@ -1,0 +1,23 @@
+{
+  "name": "webpack001",
+  "version": "1.0.0",
+  "description": "webpack",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --progress --colors --hot --inline"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "aty",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.25.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "gulp": "^3.9.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  }
+}
